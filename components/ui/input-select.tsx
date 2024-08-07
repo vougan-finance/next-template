@@ -28,7 +28,7 @@ export const SelectInput: React.FC<SelectGenericProps> = ({
         name={name}
         defaultValue={defaultValue}
         className={cn(
-          "w-full appearance-none rounded-sm border-[1px] border-zinc-400/50 bg-basis py-2 pl-2 pr-8 hover:cursor-pointer focus:outline-none focus:ring-1 focus:ring-primary",
+          "w-full appearance-none rounded-sm border-[1px] border-zinc-400/50 bg-basis py-2 pl-2 pr-8 hover:cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary",
           className,
         )}
         onChange={(e) => handleChange?.(e.target.value)}
