@@ -2,17 +2,6 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { InputGeneric } from "@/components/ui/input-generic";
 import { SelectInput } from "@/components/ui/input-select";
-import { measurePerformance } from "@/utils/utils";
-
-function test() {
-  let counter = 0;
-  let total = 32133330;
-  for (let n = 1; n <= total; n++) {
-    counter += n;
-  }
-  return counter;
-}
-measurePerformance(test);
 
 export default function Home() {
   return (
