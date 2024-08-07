@@ -23,7 +23,7 @@ export const Button = ({
       {...props}
       type="submit"
       className={cn(
-        "w-fit rounded-sm border-primary bg-primary px-8 py-4 text-center font-medium text-fixed transition-all hover:bg-neutral hover:text-basis",
+        "w-fit self-center rounded-sm border-primary bg-primary px-8 py-4 text-center font-medium text-fixed transition-all hover:bg-neutral hover:text-basis",
         className,
       )}
     >
