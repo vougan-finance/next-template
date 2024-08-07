@@ -26,6 +26,7 @@ export default function Home() {
         </button>
         <div className="text-success">Mensagem de sucesso</div>
         <div className="text-warning">Aviso importante</div>
+        <div className="text-error">Mensagem de erro</div>
         <InputGeneric
           name="name"
           type="text"

@@ -18,6 +18,7 @@ const config: Config = {
         fixed: "var(--color-fixed)",
         success: "var(--color-success)",
         warning: "var(--color-warning)",
+        error: "var(--color-error)",
       },
     },
   },

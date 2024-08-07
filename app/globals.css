@@ -5,21 +5,23 @@
 :root {
   -webkit-font-smoothing: antialiased;
 
-  --color-primary: #3d64dd;
-  --color-secondary: #edf2fe;
-  --color-neutral: #1e1f24;
-  --color-basis: #f9f9fb;
-  --color-fixed: #eeeef0;
-  --color-success: #22c55e;
-  --color-warning: #f59e0b;
+  --color-primary: rgba(61, 100, 221, 1);
+  --color-secondary: rgba(237, 242, 254, 1);
+  --color-neutral: rgba(30, 31, 36, 1);
+  --color-basis: rgba(249, 249, 251, 1);
+  --color-fixed: rgba(238, 238, 240, 1);
+  --color-success: rgba(34, 197, 94, 1);
+  --color-warning: rgba(245, 158, 11, 1);
+  --color-error: rgba(220, 38, 38, 1);
 }
 
 .dark {
-  --color-primary: #3d40ff;
-  --color-secondary: #111b63;
-  --color-neutral: #eeeef0;
-  --color-basis: #19191b;
-  --color-fixed: #eeeef0;
-  --color-success: #4ade80;
-  --color-warning: #fbbf24;
+  --color-primary: rgba(61, 64, 255, 1);
+  --color-secondary: rgba(17, 27, 99, 1);
+  --color-neutral: rgba(238, 238, 240, 1);
+  --color-basis: rgba(25, 25, 27, 1);
+  --color-fixed: rgba(238, 238, 240, 1);
+  --color-success: rgba(74, 222, 128, 1);
+  --color-warning: rgba(251, 191, 36, 1);
+  --color-error: rgba(248, 113, 113, 1);
 }
