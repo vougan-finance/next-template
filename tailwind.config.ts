@@ -15,6 +15,7 @@ const config: Config = {
         secondary: "var(--color-secondary)",
         neutral: "var(--color-neutral)",
         basis: "var(--color-basis)",
+        surface: "var(--color-surface)",
         fixed: "var(--color-fixed)",
         success: "var(--color-success)",
         warning: "var(--color-warning)",

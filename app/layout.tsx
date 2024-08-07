@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <Providers>
-          <div className="bg-basis">
+          <div>
             <ThemeSwitch />
             {children}
           </div>

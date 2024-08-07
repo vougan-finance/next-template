@@ -10,7 +10,7 @@ export const Card = ({ children, className, ...props }: ShadowBoxProps) => (
     {...props}
     className={cn(
       className,
-      "rounded-md border-[1px] border-zinc-400/50 bg-basis p-4",
+      "rounded-md border-[1px] border-zinc-400/50 bg-surface p-4",
     )}
   >
     {children}
